@@ -1,7 +1,9 @@
 # Serial-monitor
 Serial monitor and plotter for linux
 
-First you need to install screen:
+## Screen commands
+
+ First you need to install screen:
 ```bash
 
 sudo apt install screen
