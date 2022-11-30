@@ -8,7 +8,7 @@ sudo apt install screen
 
 ```
 Attaching COM port to screen:
-````bash
+```bash
 screen /dev/PORT
 ```
 
