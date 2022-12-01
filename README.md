@@ -1,5 +1,5 @@
 # Serial-monitor
-Serial monitor and plotter for linux
+Serial monitor for linux.
 
 ## FUNCTIONS
 For initialization of serial monitor :
