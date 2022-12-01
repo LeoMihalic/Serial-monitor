@@ -7,42 +7,14 @@ For initialization of serial monitor :
 SerialInit();
 ```
 
-For printing out transmitted data from microcontroler:
+For printing out transmitted data from microcontroler in one line (Input = char):
 ```bash
-serialWrite(string);
+serialWrite();
 ```
-
-## Makefile
-
-Compile:
+For printing out transmitted data from microcontroler in new line (Input = char):
 ```bash
-make compile
+serialWriteLn();
 ```
-
-Link:
-```bash
-make link
-```
-
-Flash to microcontroler:
-```bash
-make flash
-```
-
-Turno on COM port monitor:
-```bash
-make monitor
-```
-
- Clean and closing monitor:
- ```bash
- make clean
- ```
-
- Run compile link flash monitor at the same time:
- ```bash
- make default
- ```
 
 ## Screen commands
 
@@ -76,6 +48,38 @@ Listing all opened screens:
 ```bash
 screen -ls
 ```
+## Makefile
+
+Compile:
+```bash
+make compile
+```
+
+Link:
+```bash
+make link
+```
+
+Flash to microcontroler:
+```bash
+make flash
+```
+
+Turno on COM port monitor:
+```bash
+make monitor
+```
+
+ Clean and closing monitor:
+ ```bash
+ make clean
+ ```
+
+ Run compile link flash monitor at the same time:
+ ```bash
+ make default
+ ```
+
 
 
 
