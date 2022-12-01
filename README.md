@@ -1,6 +1,17 @@
 # Serial-monitor
 Serial monitor and plotter for linux
 
+## FUNCTIONS
+For initialization of serial monitor :
+```bash
+SerialInit();
+```
+
+For printing out transmitted data from microcontroler:
+```bash
+serialWrite(string);
+```
+
 ## Makefile
 
 Compile:
@@ -17,12 +28,18 @@ Flash to microcontroler:
 ```bash
 make flash
 ```
- Clean:
+
+Turno on COM port monitor:
+```bash
+make monitor
+```
+
+ Clean and closing monitor:
  ```bash
  make clean
  ```
 
- Run compile link flash clean at the same time:
+ Run compile link flash monitor at the same time:
  ```bash
  make default
  ```

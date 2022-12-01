@@ -12,7 +12,7 @@ BAUD= 115200
 PROGRAMMER= arduino
 
 .PHONY: default
-default: compile link flash clean 
+default: compile link flash monitor 
 
 .PHONY: compile
 compile:
@@ -31,5 +31,8 @@ flash:
 .PHONY: clean
 clean:
 					rm -f *.bin *.hex *.o *.elf
+					screen -X quit
 
-
+.PHONY: monitor
+monitor:
+					screen ${PORT}

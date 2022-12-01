@@ -11,5 +11,5 @@ char serialBuffer[TX_BUFFER_SIZE];
 void SerialInit();
 void appendSerial(char c);
 void serialWrite(char c[]);
-
+void serialWriteLn(char c[]);
 

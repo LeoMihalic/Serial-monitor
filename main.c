@@ -9,7 +9,7 @@ int main(void){
  
   SerialInit();
   while(1){
-    serialWrite("Bok ja sam Leo.\n\r");
+    serialWriteLn("Bok ja sam Leo.");
     _delay_ms(100);
   }
 return 0;

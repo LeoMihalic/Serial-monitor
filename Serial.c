@@ -26,6 +26,11 @@ void appendSerial(char c){
   }
 }
 
+void serialWriteLn(char c[]){
+  serialWrite(c);
+  serialWrite("\n\r");
+}
+
 void serialWrite(char c[]){
   for(uint8_t i=0; i < strlen(c); i++){
     appendSerial(c[i]);
