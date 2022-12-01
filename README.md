@@ -65,12 +65,12 @@ Flash to microcontroler:
 make flash
 ```
 
-Turno on COM port monitor:
+Turn on COM port monitor:
 ```bash
 make monitor
 ```
 
- Clean and closing monitor:
+ Removing compiled files and closing monitor:
  ```bash
  make clean
  ```
