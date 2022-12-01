@@ -7,7 +7,7 @@
 uint8_t serialReadPos = 0;
 uint8_t serialWritePos = 0;
 
-void SerialInit(){
+void serialInit(){
   UBRR0H= (BRC>>8);
   UBRR0L= BRC;
 

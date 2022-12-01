@@ -7,7 +7,7 @@
 
 int main(void){
  
-  SerialInit();
+  serialInit();
   while(1){
     serialWriteLn("Bok ja sam Leo.");
     _delay_ms(100);

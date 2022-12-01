@@ -4,7 +4,7 @@ Serial monitor for linux.
 ## FUNCTIONS
 For initialization of serial monitor :
 ```bash
-SerialInit();
+serialInit();
 ```
 
 For printing out transmitted data from microcontroler in one line (Input = char):
